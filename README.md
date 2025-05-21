@@ -64,5 +64,3 @@ This project is **MIT-licensed**. See the [LICENSE](https://github.com/rth1972/A
 ## 🖼️ Screenshot
 
 ## ![Addressbook Screenshot](addressbook.png)
-
----
