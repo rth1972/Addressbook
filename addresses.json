@@ -1,13 +1,6 @@
 {
     "contacts": [
         {
-            "name": "Robin Tehofstee",
-            "phone": "+1 555-1234",
-            "email": "robin@example.com",
-            "address": "123 Main St, Greensburg, PA",
-            "notes": "Tech enthusiast & developer"
-        },
-        {
             "name": "Alice Johnson",
             "phone": "+1 555-5678",
             "email": "alice@example.com",
@@ -20,6 +13,20 @@
             "email": "bob@example.com",
             "address": "789 Oak St, Harrisburg, PA",
             "notes": "Networking specialist"
+        },
+        {
+            "name": "Robin te Hofstee",
+            "address": "2023 Brumbaugh Cemetery Road, Saxton PA 16678",
+            "phone": "",
+            "email": "robintehofstee@gmail.com",
+            "notes": ""
+        },
+        {
+            "name": "Carreen te Hofstee",
+            "address": "2023 Brumbaugh Cemetery Road, Saxton PA 16678",
+            "phone": "",
+            "email": "twns4us99@gmail.com",
+            "notes": ""
         }
     ]
 }
