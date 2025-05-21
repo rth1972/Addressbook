@@ -17,17 +17,22 @@ def view_addresses(addresses):
     if not addresses["contacts"]:
         print("No addresses found.")
         input("\nPress Enter to return to the menu...")
-        return
+        return  # Exit function if no contacts exist
 
     # Display indexed list of contacts
     for idx, entry in enumerate(addresses["contacts"], start=1):
         print(f"{idx}. {entry['name']}")
 
-    # Let user select a contact by index
+    # Let user select a contact or go back
     while True:
+        choice = input("\nEnter the number of the person you want to see details of, or 'b' to go back: ").strip()
+
+        if choice.lower() == 'b':
+            print("Returning to the main menu...")
+            return  # Exit function
+
         try:
-            choice = int(input("\nEnter the number of the person you want to see details of: ").strip())
-            
+            choice = int(choice)
             if 1 <= choice <= len(addresses["contacts"]):
                 selected_contact = addresses["contacts"][choice - 1]
                 print("\n\033[1;32mContact Details:\033[0m")
@@ -36,14 +41,12 @@ def view_addresses(addresses):
                 print(f"Email: {selected_contact['email']}")
                 print(f"Address: {selected_contact['address']}")
                 print(f"Notes: {selected_contact['notes']}")
-                break
+                input("\nPress Enter to return to the menu...")
+                return  # Exit after showing details
             else:
                 print("Invalid choice. Please enter a valid number.")
         except ValueError:
-            print("Enter a valid number.")
-
-    input("\nPress Enter to return to the menu...")    
-    os.system("cls" if os.name == "nt" else "clear")
+            print("Enter a valid number or 'b' to go back.")
 
 def main():
     addresses = load_address()
