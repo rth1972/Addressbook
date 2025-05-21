@@ -1,0 +1,25 @@
+{
+    "contacts": [
+        {
+            "name": "Robin Tehofstee",
+            "phone": "+1 555-1234",
+            "email": "robin@example.com",
+            "address": "123 Main St, Greensburg, PA",
+            "notes": "Tech enthusiast & developer"
+        },
+        {
+            "name": "Alice Johnson",
+            "phone": "+1 555-5678",
+            "email": "alice@example.com",
+            "address": "456 Elm St, Pittsburgh, PA",
+            "notes": "Designer & creative mind"
+        },
+        {
+            "name": "Bob Smith",
+            "phone": "+1 555-9876",
+            "email": "bob@example.com",
+            "address": "789 Oak St, Harrisburg, PA",
+            "notes": "Networking specialist"
+        }
+    ]
+}
