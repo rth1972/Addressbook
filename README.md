@@ -1,7 +1,3 @@
-Great! Here's an enhanced **README.md** for your GitHub repository, now featuring **badges, a logo, and a professional layout**.
-
----
-
 # 📖 Address Book
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/rth1972/Addressbook?style=for-the-badge)  
