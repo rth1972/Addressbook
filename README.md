@@ -65,4 +65,4 @@ This project is **MIT-licensed**. See the [LICENSE](https://github.com/rth1972/A
 
 ## ![Addressbook Screenshot](addressbook.png)
 
-![Bill Manager Repo](https://github-readme-stats.vercel.app/api/pin/?username=your-username&repo=bill-manager&theme=dark)
+![Bill Manager Repo](https://github-readme-stats.vercel.app/api/pin/?username=rth1972&repo=Addressbook&theme=light)
